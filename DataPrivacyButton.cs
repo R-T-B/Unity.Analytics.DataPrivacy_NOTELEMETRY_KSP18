@@ -25,8 +25,7 @@ namespace UnityEngine.Analytics
 
         private void OpenDataPrivacyUrl()
         {
-            this.interactable = false;
-            DataPrivacy.FetchPrivacyUrl(new Action<string>(this.OpenUrl), new Action<string>(this.OnFailure));
+            return;
         }
 
         private void OnApplicationFocus(bool hasFocus)
