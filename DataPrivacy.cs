@@ -6,10 +6,10 @@ namespace UnityEngine.Analytics
 {
     public class DataPrivacy
     {
-        private const string kVersion = "3.0.0";
-        private const string kVersionString = "DataPrivacyPackage/3.0.0";
-        internal const string kBaseUrl = "https://data-optout-service.uca.cloud.unity3d.com";
-        private const string kTokenUrl = "https://data-optout-service.uca.cloud.unity3d.com/token";
+        private const string kVersion = "STOPMININGMYDATAUNITY1.0";
+        private const string kVersionString = "STOPMININGMYDATAUNITY1.0";
+        internal const string kBaseUrl = "";
+        private const string kTokenUrl = "";
 
         internal static DataPrivacy.UserPostData GetUserData()
         {
@@ -21,7 +21,7 @@ namespace UnityEngine.Analytics
                 platform = "",
                 platformid = 0,
                 sdk_ver = "",
-                debug_device = true,
+                debug_device = false,
                 deviceid = "",
                 plugin_ver = "STOPMININGMYDATAUNITY1.0"
             };
