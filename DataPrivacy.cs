@@ -59,8 +59,8 @@ namespace UnityEngine.Analytics
         [Serializable]
         internal struct TokenData
         {
-            public string url;
-            public string token;
+            public const string url ="";
+            public const string token = "";
         }
     }
 }
